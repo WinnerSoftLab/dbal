@@ -1,5 +1,5 @@
 {
-    "name": "doctrine/dbal",
+    "name": "winnersoftlab/dbal",
     "type": "library",
     "description": "Database Abstraction Layer",
     "keywords": ["dbal", "database", "persistence", "queryobject"],
@@ -23,6 +23,9 @@
     },
     "suggest": {
         "symfony/console": "For helpful console commands such as SQL execution and import of files."
+    },
+    "replace": {
+        "doctrine/dbal": "2.6.3"
     },
     "bin": ["bin/doctrine-dbal"],
     "autoload": {
